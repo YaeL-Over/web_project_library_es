@@ -422,7 +422,7 @@
 .footer__list-item {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  margin-bottom: 16px;
   padding: 0 16px 0 0;
 }
 
@@ -430,8 +430,9 @@
   display: flex;
   color: white;
   text-decoration: none;
-  column-gap: 16px;
+
   align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
@@ -441,4 +442,8 @@
 
 .footer__copyright {
   margin: 100px 0 0;
+}
+
+.footer__list-item_last-child {
+  margin-bottom: 0;
 }
