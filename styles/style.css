@@ -340,11 +340,11 @@
 
 .membership__steps {
   list-style-type: none;
-  padding: 40px;
+  padding: 0;
   margin: 100px 0 0;
   /* Agrega estilos */
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 40px;
   max-width: 1080px;
   /*border: 3px dashed green;*/
@@ -376,7 +376,7 @@
 
 .footer {
   /*border: 3px dashed yellow;*/
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   box-sizing: border-box;
   padding: 60px 80px;
@@ -402,6 +402,8 @@
 }
 
 .footer__logo {
+  height: 80px;
+  width: 58px;
   position: absolute;
   left: 0;
   top: 0;
